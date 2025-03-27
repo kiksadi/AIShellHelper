@@ -16,5 +16,26 @@ It explains shell commands, helps with Linux system tasks, and generates usable 
 ---
 
 ## 📁 Project Structure
+---
 
+## 🚀 Usage
+
+Run any of the following from the project root:
+
+```bash
+python3 main.py explain "ls -la"
+python3 main.py howto "mount a USB drive"
+python3 main.py script "rename all .txt files to .md"
+python3 main.py chat
+
+MOCK_MODE=true
+python3 main.py explain "ls -la"
+
+[MOCK RESPONSE] You asked: Explain what this shell command does:
+ls -la
+---
+
+## 📜 License
+
+MIT License — see [LICENSE](./LICENSE)
 
